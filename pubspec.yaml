@@ -19,12 +19,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/images/pngs/
-    - assets/images/pngs/1.5x/
-    - assets/images/pngs/2x/
-    - assets/images/pngs/3x/
-    - assets/images/pngs/4x/
-    - assets/images/svgs/
-    - assets/translations/
-    - assets/jsons/
