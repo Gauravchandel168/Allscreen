@@ -46,6 +46,15 @@ class ButtonPage extends StatelessWidget {
 
 
     }, ),
+
+            SizedBox(height: 10,),
+            ElevatedButton(child:Text("6stscreen"),
+              style: ElevatedButton.styleFrom(padding: EdgeInsets.all(20),),
+              onPressed: (){
+                Navigator.pushNamed(context,MyRoutes.sixthRoute );
+
+
+              }, ),
           ],
         ),
       ),

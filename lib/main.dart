@@ -3,6 +3,7 @@ import 'package:untitled/2ndscreen/second_page.dart';
 import 'package:untitled/3rdscreeen/third-page.dart';
 import 'package:untitled/4thscreen/forth_page.dart';
 import 'package:untitled/5thscreen/fifth_page.dart';
+import 'package:untitled/6thscreen/sixth_screeen.dart';
 import 'package:untitled/button_page.dart';
 
 import 'home_page.dart';
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.thirdRoute: (context) => ThirdPage(),
         MyRoutes.forthRoute: (context) => ForthPage(),
         MyRoutes.fifthRoute: (context) => FifthPage(),
+        MyRoutes.sixthRoute: (context) => SixthPage(),
       },
     ); // material app
   }
@@ -42,4 +44,5 @@ class MyRoutes {
   static String thirdRoute = "/third";
   static String forthRoute = "/forth";
   static String fifthRoute = "/fifth";
+  static String sixthRoute = "/sixth";
 }
